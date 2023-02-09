@@ -167,6 +167,8 @@ const calcular = function(numero1, numero2, tipoCalculo) { // pega uma função 
     if (resultado != undefined)
         //console.log(resultado.toFixed());
         return  Number(resultado.toFixed(2));
+
+        //Number -> retorna numero
     else
         // return false; // retorna falso para caso eu saiba o erro
         //recomendado que torna função retorne reultado do processamento e sempre retorne false
